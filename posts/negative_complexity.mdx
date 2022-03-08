@@ -17,7 +17,7 @@ I’ve been for a long time experimenting with the [Abstract Algorithm](https://
 
 That algorithm is not only very elegant (beta\-reduction is symmetric!), but also very fast, beating **asymptotically** Haskell, OCaml, Elm, JavaScript and any other “functional” programming language you can think of. It is so fast that, sometimes, it beats even common sense. As an example, I’ve observed it can often [apply a function N times in `O(log(n)`atomic operations](https://github.com/VictorTaelin/articles/tree/master/0004-supercompilation-for-free) (wut?).
 
-If that sounds bizarre enough, I hope this recent experiment will leave you as perplex as I am. As far as complexity theory goes, the more things you do, the higher the costs of your algorithm. Common sense, right? Well, not for Absal. In some cases, a function can behave as if it had… negative complexity? Wut? Here is an example:
+If that sounds bizarre enough, I hope this recent experiment will leave you as perplexed as I am. As far as complexity theory goes, the more things you do, the higher the costs of your algorithm. Common sense, right? Well, not for Absal. In some cases, a function can behave as if it had… negative complexity? Wut? Here is an example:
 
 ```haskell
 -- Binary strings
